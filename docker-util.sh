@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # check if stdout is a terminal...
 if test -t 1; then
