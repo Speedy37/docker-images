@@ -146,7 +146,7 @@ WantedBy=multi-user.target"
       if [ "$backup_name" = "" ]; then echo "The backup container name cannot be empty"; exit 1; fi
     fi
     read -e -p "Name of the timer: $input" -i "$name.backup" timer_name; echo -n -e "$normal"
-    if [ "$name" = "" ]; then echo "Timer name cannot be empty"; exit 1; fi
+    if [ "$timer_name" = "" ]; then echo "Timer name cannot be empty"; exit 1; fi
 
     read -e -p "When do you want the backup to occur ? $input" -i "*-*-* 01:00:00" timer_calendar; echo -n -e "$normal"
 
