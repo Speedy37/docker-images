@@ -1,4 +1,4 @@
-FROM speedy37\duplicity:alpine
+FROM speedy37/duplicity:alpine
 
 RUN apk add --no-cache duply
 
