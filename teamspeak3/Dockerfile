@@ -5,7 +5,7 @@ RUN apt-get update -y
  && apt-get upgrade -y
  && apt-get install wget -y
 
-ENV TS3_VERSION 3.0.12.4
+ENV TS3_VERSION 3.0.13.6
 ENV TS3_DIR /opt/teamspeak3-server
 RUN wget -O \
          /tmp/teamspeak-server.tar.gz \
