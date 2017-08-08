@@ -37,7 +37,7 @@ RUN yes | ${ANDROID_HOME}/tools/bin/sdkmanager --licenses
 RUN ${ANDROID_HOME}/tools/bin/sdkmanager --update
 RUN ${ANDROID_HOME}/tools/bin/sdkmanager \
       "build-tools;26.0.1" \
-      "platforms;android-23" \
-      "sources;android-23" \
+      "platforms;android-25" \
+      "sources;android-25" \
       "extras;android;m2repository" \
       "extras;google;m2repository" \
