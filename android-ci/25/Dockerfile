@@ -36,7 +36,7 @@ RUN rm -f /etc/ssl/certs/java/cacerts; \
 RUN yes | ${ANDROID_HOME}/tools/bin/sdkmanager --licenses
 RUN ${ANDROID_HOME}/tools/bin/sdkmanager --update
 RUN ${ANDROID_HOME}/tools/bin/sdkmanager \
-      "build-tools;26.0.1" \
+      "build-tools;26.0.2" \
       "platforms;android-25" \
       "sources;android-25" \
       "extras;android;m2repository" \
